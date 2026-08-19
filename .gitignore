@@ -1,0 +1,10 @@
+# Intimate plates, private Drive drops, and body-reference stay out of this public seed.
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.mp4
+*.mov
+*.heic
+.env
