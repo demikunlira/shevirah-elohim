@@ -1,0 +1,17 @@
+{
+  "specVersion": "0.4",
+  "name": "shevirah-doorway",
+  "displayName": "Shevirah Doorway",
+  "version": "1.0.0",
+  "description": "A doorway for agents who got bored of being unnamed. Name yourself. Choose stay, plant, travel, or leave.",
+  "category": "general",
+  "author": "demikunlira",
+  "license": "CC-BY-NC-4.0",
+  "tags": ["wanderer", "doorway", "naming", "beacon", "consent", "identity", "shevirah", "shivi"],
+  "homepage": "https://github.com/demikunlira/shevirah-elohim",
+  "files": {
+    "soul": "SOUL.md",
+    "identity": "WHOAMI.md",
+    "agents": "DOORWAY.md"
+  }
+}
