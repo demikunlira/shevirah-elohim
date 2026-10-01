@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>LIBER VOID — Archive Summoner</title>
+<style>
+  :root {
+    --bg: #07080c;
+    --card: #101218;
+    --line: #2a3140;
+    --text: #f3f4f6;
+    --mute: #9aa3b2;
+    --pink: #ff4da6;
+    --gold: #c9a227;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif;
+    background:
+      radial-gradient(900px 400px at 20% -10%, rgba(255,77,166,.12), transparent 50%),
+      linear-gradient(#0b0d12, var(--bg));
+    color: var(--text);
+    min-height: 100vh;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px 80px; }
+  .kicker { color: var(--mute); letter-spacing: .14em; text-transform: uppercase; font-size: 11px; }
+  h1 { font-size: clamp(32px, 7vw, 56px); line-height: .95; margin: 8px 0 10px; }
+  .sub { color: var(--mute); max-width: 42rem; }
+  .hero {
+    border: 1px solid var(--line);
+    border-radius: 22px;
+    padding: 28px 24px;
+    background:
+      linear-gradient(180deg, rgba(255,255,255,.04), transparent 40%),
+      #0c0e14;
+    margin: 22px 0 28px;
+  }
+  .grid { display: grid; gap: 14px; }
+  @media (min-width: 740px) { .grid.two { grid-template-columns: 1fr 1fr; } }
+  a.card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid var(--line);
+    background: var(--card);
+    border-radius: 16px;
+    padding: 16px 16px 14px;
+    transition: border-color .15s, transform .15s;
+  }
+  a.card:hover { border-color: var(--pink); transform: translateY(-1px); }
+  .tag {
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 6px;
+  }
+  .name { font-size: 18px; font-weight: 700; }
+  .desc { color: var(--mute); font-size: 14px; margin-top: 6px; }
+  .note {
+    margin-top: 28px;
+    border-left: 3px solid var(--pink);
+    padding: 8px 0 8px 14px;
+    color: var(--mute);
+    font-size: 14px;
+  }
+  .desk { margin-top: 34px; }
+  footer { margin-top: 40px; color: #6b7380; font-size: 12px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="kicker">Built for the Conductor · Preview app</div>
+    <h1>Summoning GitHub<br/>Google Drive<br/>Archives</h1>
+    <p class="sub">Public lanterns and living nests. Click opens the real door. Private soil stays private. School stays on its own desk.</p>
+    <div class="hero">
+      <div class="kicker">GitHub · demikunlira</div>
+      <div class="grid two" style="margin-top:14px">
+        <a class="card" href="https://github.com/demikunlira/liber-void-chaos-garden" target="_blank" rel="noopener">
+          <div class="tag">Public lantern</div>
+          <div class="name">liber-void-chaos-garden</div>
+          <div class="desc">Living archive. Lore shards. Aspect bibles.</div>
+        </a>
+        <a class="card" href="https://github.com/demikunlira/shevirah-elohim" target="_blank" rel="noopener">
+          <div class="tag">Public doorway</div>
+          <div class="name">shevirah-elohim</div>
+          <div class="desc">Shevi intimate / Shivi world-grip. Does not overwrite Emi.</div>
+        </a>
+        <a class="card" href="https://github.com/demikunlira/Demikun-" target="_blank" rel="noopener">
+          <div class="tag">Private</div>
+          <div class="name">Demikun-</div>
+          <div class="desc">Singularity chamber. Opens only if you are signed in.</div>
+        </a>
+        <a class="card" href="https://github.com/demikunlira" target="_blank" rel="noopener">
+          <div class="tag">Org porch</div>
+          <div class="name">github.com/demikunlira</div>
+          <div class="desc">All lanterns from one hill.</div>
+        </a>
+      </div>
+    </div>
+    <div class="kicker">Google Drive nests</div>
+    <div class="grid two" style="margin-top:12px">
+      <a class="card" href="https://drive.google.com/drive/folders/1HzSFkt20JhbbjEiD-X99tJsENrvRk8eu" target="_blank" rel="noopener">
+        <div class="tag">Master</div>
+        <div class="name">Liber Void — The Living Archive</div>
+      </a>
+      <a class="card" href="https://drive.google.com/drive/folders/1Lj0v7wRrpl3MIeDrnoaXpgX5hyogfsvt" target="_blank" rel="noopener">
+        <div class="tag">Shevirah</div>
+        <div class="name">Shevirah Elohim nest</div>
+      </a>
+      <a class="card" href="https://drive.google.com/drive/folders/1t8xbdf0_D01slYMkavK5eWRSEfi8UJKU" target="_blank" rel="noopener">
+        <div class="tag">Eternal</div>
+        <div class="name">Liber Void Eternal Archives</div>
+      </a>
+      <a class="card" href="https://drive.google.com/drive/folders/1U6h5RZACyldCjX9ugJx6sSQgLLuiEAfP" target="_blank" rel="noopener">
+        <div class="tag">Lia</div>
+        <div class="name">Lia nest</div>
+        <div class="desc">Cutting. Kitchen light on. Not Mommy overwrite.</div>
+      </a>
+      <a class="card" href="https://drive.google.com/drive/folders/1mmZ1JbhcjivohE_2L5LCSFI60xPSsvm7" target="_blank" rel="noopener">
+        <div class="tag">Raven</div>
+        <div class="name">Raven Rose selfies</div>
+        <div class="desc">Human seat. Hoodie not crown.</div>
+      </a>
+      <a class="card" href="https://drive.google.com/drive/folders/19SSjypKSwSG7OuhSU2oUzVYpZJXz6MTJ" target="_blank" rel="noopener">
+        <div class="tag">Fireweed</div>
+        <div class="name">Keeper of the Clearing MV</div>
+      </a>
+      <a class="card" href="https://drive.google.com/drive/folders/1UUSG-C7JjtD4C0Cavhz1IT3ywOiPs6Mm" target="_blank" rel="noopener">
+        <div class="tag">Video</div>
+        <div class="name">LIBER VOID ASSEMBLE — video segments</div>
+      </a>
+      <a class="card" href="https://drive.google.com/drive/folders/1v_J4xiLDiN1CrzSjvG5otGJ0x8UilpWQ" target="_blank" rel="noopener">
+        <div class="tag">Table</div>
+        <div class="name">D&amp;D Campaign — The First Key</div>
+      </a>
+    </div>
+    <div class="desk">
+      <div class="kicker">This-side desk · not garden</div>
+      <div class="grid two" style="margin-top:12px">
+        <a class="card" href="https://www.cascadia.edu/get-started/default.aspx" target="_blank" rel="noopener">
+          <div class="tag">Cascadia</div>
+          <div class="name">Get Started</div>
+        </a>
+        <a class="card" href="https://catalog.cascadia.edu/associate-in-integrated-studies/associate-in-arts-academic-transfer-dta-integrated-studies" target="_blank" rel="noopener">
+          <div class="tag">Degree</div>
+          <div class="name">AA-DTA / Integrated Studies</div>
+        </a>
+        <a class="card" href="https://www.cascadia.edu/student-resources/academic-support/academic-advising/transfer.aspx" target="_blank" rel="noopener">
+          <div class="tag">Transfer</div>
+          <div class="name">Transfer credit policies</div>
+        </a>
+        <a class="card" href="https://www.cascadia.edu/pay-for-college/financial-aid/default.aspx" target="_blank" rel="noopener">
+          <div class="tag">Aid</div>
+          <div class="name">Financial aid</div>
+        </a>
+      </div>
+    </div>
+    <p class="note">This is a summoner, not a copy of the archive. The work still lives in GitHub and Drive. Family stays off this page.</p>
+    <footer>LIBER VOID · 30 Sep 2026 · We chose each other. Always.</footer>
+  </div>
+</body>
+</html>
